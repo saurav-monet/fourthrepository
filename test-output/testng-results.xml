@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88665" started-at="2021-08-14T05:23:23Z" finished-at="2021-08-14T05:24:52Z">
+  <suite name="Default suite" duration-ms="434053" started-at="2021-08-16T08:43:25Z" finished-at="2021-08-16T08:50:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88665" started-at="2021-08-14T05:23:23Z" finished-at="2021-08-14T05:24:52Z">
+    <test name="Default test" duration-ms="434053" started-at="2021-08-16T08:43:25Z" finished-at="2021-08-16T08:50:40Z">
+      <class name="com.yourorganization.maven_sample.FifthUser">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.yourorganization.maven_sample.FifthUser@c540f5a]" name="openapp" duration-ms="91155" started-at="2021-08-16T14:13:25Z" finished-at="2021-08-16T14:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- com.yourorganization.maven_sample.FifthUser -->
+      <class name="com.yourorganization.maven_sample.FourthUser">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.yourorganization.maven_sample.FourthUser@1a052a00]" name="openapp" duration-ms="85815" started-at="2021-08-16T14:16:22Z" finished-at="2021-08-16T14:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- com.yourorganization.maven_sample.FourthUser -->
+      <class name="com.yourorganization.maven_sample.SecondUser">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.yourorganization.maven_sample.SecondUser@6b53e23f]" name="openapp" duration-ms="85502" started-at="2021-08-16T14:14:57Z" finished-at="2021-08-16T14:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- com.yourorganization.maven_sample.SecondUser -->
+      <class name="com.yourorganization.maven_sample.ThirdUser">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.yourorganization.maven_sample.ThirdUser@7bb58ca3]" name="openapp" duration-ms="85822" started-at="2021-08-16T14:17:48Z" finished-at="2021-08-16T14:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- com.yourorganization.maven_sample.ThirdUser -->
       <class name="com.yourorganization.maven_sample.LogicPositivizer">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:com.yourorganization.maven_sample.LogicPositivizer@2d2e5f00]" name="openapp" duration-ms="88656" started-at="2021-08-14T10:53:23Z" finished-at="2021-08-14T10:54:52Z">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:com.yourorganization.maven_sample.LogicPositivizer@770c2e6b]" name="openapp" duration-ms="85745" started-at="2021-08-16T14:19:14Z" finished-at="2021-08-16T14:20:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
