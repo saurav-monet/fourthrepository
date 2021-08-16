@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Parallel Testing Suite]">
+  <test parallel="methods" name="Parallel Tests(failed)">
+    <classes>
+      <class name="com.yourorganization.maven_sample.FourthUser">
+        <methods>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- com.yourorganization.maven_sample.FourthUser -->
+      <class name="com.yourorganization.maven_sample.LogicPositivizer">
+        <methods>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- com.yourorganization.maven_sample.LogicPositivizer -->
+      <class name="com.yourorganization.maven_sample.FifthUser">
+        <methods>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- com.yourorganization.maven_sample.FifthUser -->
+      <class name="com.yourorganization.maven_sample.SecondUser">
+        <methods>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- com.yourorganization.maven_sample.SecondUser -->
+      <class name="com.yourorganization.maven_sample.ThirdUser">
+        <methods>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- com.yourorganization.maven_sample.ThirdUser -->
+    </classes>
+  </test> <!-- Parallel Tests(failed) -->
+</suite> <!-- Failed suite [Parallel Testing Suite] -->
