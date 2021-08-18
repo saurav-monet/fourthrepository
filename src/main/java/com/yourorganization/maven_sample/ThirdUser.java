@@ -20,7 +20,7 @@ public class ThirdUser
 
 	     ChromeOptions options = new ChromeOptions();
 		 options.addArguments("--use-fake-ui-for-media-stream");
-		 System.setProperty("webdriver.chrome.driver","/usr/bin/google-chrome");
+		 System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		 //System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
 		 options.addArguments("--headless");
 	    options.addArguments("--use-fake-device-for-media-stream");
