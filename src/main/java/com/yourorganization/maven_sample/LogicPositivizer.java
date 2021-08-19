@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
@@ -20,6 +21,7 @@ public class LogicPositivizer
 
     ChromeOptions options = new ChromeOptions();
 	options.addArguments("--use-fake-ui-for-media-stream");
+	System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 	//System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
 	
