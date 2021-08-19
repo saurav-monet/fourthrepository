@@ -21,7 +21,7 @@ public class LogicPositivizer
 	options.addArguments("--use-fake-ui-for-media-stream");
 	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 	//System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
-	
+	 
 	//System.setProperty("java.awt.headless", "true");
 	//options.addArguments("--headless");
     options.addArguments("--use-fake-device-for-media-stream");
