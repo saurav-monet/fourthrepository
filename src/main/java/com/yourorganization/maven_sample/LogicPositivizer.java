@@ -22,8 +22,8 @@ public class LogicPositivizer
 	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 	//System.setProperty("webdriver.chrome.driver","C:\\WebDriver\\bin\\chromedriver.exe");
 	
-	System.setProperty("java.awt.headless", "true");
-	options.addArguments("--headless");
+	//System.setProperty("java.awt.headless", "true");
+	//options.addArguments("--headless");
     options.addArguments("--use-fake-device-for-media-stream");
 	 options.addArguments("--start-fullscreen");	
 	 		
